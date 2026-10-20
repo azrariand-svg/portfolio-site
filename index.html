@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#11110f" />
+    <meta name="description" content="莫宇航的 AI 视频创作作品集，聚焦 AI 影视画面、角色替换、动作复刻与动态叙事。" />
+    <title>莫宇航 — AI 视频创作</title>
+    <link rel="preload" as="image" href="/media/boards/poster-viral.png" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="回到首页">MO<span>·</span>YUHANG</a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#works" data-section-link="works">作品</a>
+        <a href="#approach" data-section-link="approach">创作方式</a>
+        <a href="#contact" data-section-link="contact">联系</a>
+      </nav>
+      <a class="header-contact" href="mailto:2757288235@qq.com">合作 / Hire <span>↗</span></a>
+      <button class="menu-toggle" aria-label="打开导航" aria-expanded="false">菜单</button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="/media/boards/poster-viral.png">
+          <source src="/media/viral-cut.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-shade"></div>
+        <div class="hero-topline"><span>AI VIDEO CREATOR</span><span>广州 · 中国</span></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> AI 影像 / 动态叙事</p>
+          <p class="hero-identity"><span class="identity-mask"><span class="identity-name">莫宇航</span></span><span class="identity-role">AI 视频创作者</span></p>
+          <h1 id="hero-title"><span class="title-mask"><span class="title-line">让画面</span></span><span class="title-mask"><em class="title-line">开始叙事。</em></span></h1>
+          <div class="hero-bottom">
+            <p class="hero-edition">独立影像<br /><span>AI 作品选辑</span></p>
+            <p class="hero-note">从角色一致性到镜头节奏，<br />探索 AI 影视画面的表达边界。</p>
+            <a class="round-link" href="#works" aria-label="浏览作品">↓</a>
+          </div>
+        </div>
+        <div class="hero-index"><span>SELECTED WORKS</span><span>AI FILMS / PORTFOLIO</span></div>
+        <button class="sound-toggle" type="button" aria-pressed="false"><span class="sound-icon">Ⅱ</span> 声音关闭</button>
+      </section>
+
+      <section class="intro section-shell" id="approach" data-chapter="01">
+        <p class="section-index">01 / CREATIVE FOCUS</p>
+        <div class="intro-main">
+          <h2>让生成式影像<br /><span>拥有镜头逻辑。</span></h2>
+          <div class="intro-aside">
+            <p>专注 AI 影视画面与角色叙事。用分镜组织信息，用动作推动情绪，让人物在连续镜头里保持可信。</p>
+            <div class="focus-list"><span>角色一致性</span><span>动作复刻</span><span>分镜设计</span><span>动态叙事</span></div>
+          </div>
+        </div>
+        <div class="tool-shelf" data-reveal>
+          <div class="tool-shelf-heading">
+            <p class="section-index">01.1 / TOOLKIT IN CONTEXT</p>
+            <div><h3>工具与作品之间</h3><p>悬停或点选图标，查看它在创作流程里的位置。</p></div>
+          </div>
+          <div class="tool-explorer">
+            <div class="tool-selectors" role="group" aria-label="查看创作工具与作品的关联">
+              <button class="tool-selector" type="button" data-tool="gpt" aria-pressed="false"><span class="software-mark mark-gpt" aria-hidden="true">GPT</span><span class="software-name">ChatGPT</span><span class="software-index">01</span></button>
+              <button class="tool-selector" type="button" data-tool="libtv" aria-pressed="false"><span class="software-mark mark-libtv" aria-hidden="true">lib.tv</span><span class="software-name">libtv</span><span class="software-index">02</span></button>
+              <button class="tool-selector is-active" type="button" data-tool="jimeng" aria-pressed="true"><span class="software-mark mark-jimeng" aria-hidden="true">即</span><span class="software-name">即梦</span><span class="software-index">03</span></button>
+              <button class="tool-selector" type="button" data-tool="claude" aria-pressed="false"><span class="software-mark mark-claude" aria-hidden="true">✳</span><span class="software-name">Claude</span><span class="software-index">04</span></button>
+              <button class="tool-selector" type="button" data-tool="photoshop" aria-pressed="false"><span class="software-mark mark-photoshop" aria-hidden="true">Ps</span><span class="software-name">Photoshop</span><span class="software-index">05</span></button>
+            </div>
+            <div class="tool-inspector" aria-live="polite" aria-atomic="true">
+              <div class="tool-inspector-index" id="tool-inspector-index">03 / VIDEO END FRAME</div>
+              <div class="tool-inspector-copy"><h4 id="tool-inspector-title">即梦</h4><p id="tool-inspector-description">爆款视频的创作备注提到，使用即梦收尾帧收住结尾画面。</p></div>
+              <div class="tool-inspector-foot"><span id="tool-inspector-status">PPT 创作备注</span><button type="button" class="tool-related" id="tool-related" data-project="viral-video">查看关联作品 <span>↗</span></button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works section-shell" id="works" data-chapter="02">
+        <div class="section-heading">
+          <div><p class="section-index">02 / SELECTED FILMS</p><h2>作品选辑<span>。</span></h2></div>
+          <p class="works-count"><span id="project-count">05</span> 个项目<br />来自个人作品集 PPT</p>
+        </div>
+        <div class="filter-bar" role="group" aria-label="筛选作品">
+          <button class="filter-button is-active" data-filter="all" aria-label="全部作品" aria-pressed="true"><span class="filter-label" aria-hidden="true"><span>全部</span><span>ALL WORKS</span></span><span class="filter-count" aria-hidden="true">05</span></button>
+          <button class="filter-button" data-filter="ai-video" aria-label="AI 影视" aria-pressed="false"><span class="filter-label" aria-hidden="true"><span>AI 影视</span><span>AI CINEMA</span></span><span class="filter-count" data-filter-count aria-hidden="true"></span></button>
+          <button class="filter-button" data-filter="character" aria-label="角色替换" aria-pressed="false"><span class="filter-label" aria-hidden="true"><span>角色替换</span><span>CHARACTER</span></span><span class="filter-count" data-filter-count aria-hidden="true"></span></button>
+          <button class="filter-button" data-filter="motion" aria-label="动作复刻" aria-pressed="false"><span class="filter-label" aria-hidden="true"><span>动作复刻</span><span>MOTION</span></span><span class="filter-count" data-filter-count aria-hidden="true"></span></button>
+          <button class="filter-button" data-filter="storyboard" aria-label="分镜创作" aria-pressed="false"><span class="filter-label" aria-hidden="true"><span>分镜创作</span><span>STORYBOARD</span></span><span class="filter-count" data-filter-count aria-hidden="true"></span></button>
+          <button class="filter-button" data-filter="gamepv" aria-label="游戏 PV" aria-pressed="false"><span class="filter-label" aria-hidden="true"><span>游戏 PV</span><span>GAME PV</span></span><span class="filter-count" data-filter-count aria-hidden="true"></span></button>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="statement section-shell" id="frame" data-chapter="03">
+        <p class="section-index">03 / IN THE FRAME</p>
+        <p class="statement-line">不止生成一帧，<br /><span>而是让镜头彼此成立。</span></p>
+        <div class="statement-foot"><span>AI FILMMAKING</span><span>CONCEPT → SHOT → MOTION</span></div>
+      </section>
+
+      <footer class="site-footer section-shell" id="contact" data-chapter="04">
+        <div class="footer-top"><p class="section-index">04 / CONTACT</p><p>正在寻找 AI 设计师<br />或 AI 抽卡师？</p></div>
+        <a class="email-link" href="mailto:2757288235@qq.com">让我们聊聊<span>↗</span></a>
+        <div class="footer-meta"><span>莫宇航 · AI 视频创作者</span><span>广州 · 中国</span><a href="tel:17827377310">178 2737 7310</a><span>© 2026</span></div>
+      </footer>
+    </main>
+
+    <aside class="chapter-progress" aria-hidden="true"><span class="chapter-current">00</span><span class="chapter-label">OPENING</span><span class="progress-track"><span></span></span></aside>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="关闭详情">关闭 <span>×</span></button>
+      <div class="dialog-content" id="dialog-content"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="custom-cursor" aria-hidden="true"><span>查看</span></div>
+  </body>
+</html>
